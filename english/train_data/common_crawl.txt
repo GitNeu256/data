@@ -1,0 +1,16 @@
+Common Crawl is a nonprofit 501 organization that crawls the web and freely provides its archives and datasets to the public. Common Crawl's web archive consists of petabytes of data collected since 2008. It completes crawls generally every month.
+Common Crawl was founded by Gil Elbaz. Advisors to the non-profit include Peter Norvig and Joi Ito. The organization's crawlers respect nofollow and robots.txt policies. Open source code for processing Common Crawl's data set is publicly available.
+The Common Crawl dataset includes copyrighted work and is distributed from the US under fair use claims. Researchers in other countries have made use of techniques such as shuffling sentences or referencing the common crawl dataset to work around copyright law in other legal jurisdictions.
+As of March 2023, in the most recent version of the Common Crawl dataset, 46% of documents had English as their primary language (followed by German, Russian, Japanese, French, Spanish and Chinese, all below 6%).
+History
+Amazon Web Services began hosting Common Crawl's archive through its Public Data Sets program in 2012.
+The organization began releasing metadata files and the text output of the crawlers alongside .arc files in July of that year. Common Crawl's archives had only included .arc files previously.
+In December 2012, blekko donated to Common Crawl search engine metadata blekko gathered from crawls it conducted from February to October 2012. The donated data helped Common Crawl "improve its crawl while avoiding spam, porn and the influence of excessive SEO."
+In 2013, Common Crawl began using Apache Software Foundation's Nutch webcrawler instead of a custom crawler. Common Crawl switched from using .arc files to .warc files with its November 2013 crawl.
+A filtered version of Common Crawl was used to train OpenAI's GPT-3 language model, announced in 2020.
+Timeline of Common Crawl data
+The following data have been collected from the official Common Crawl Blog.
+Norvig Web Data Science Award
+In corroboration with SURFsara, Common Crawl sponsors the Norvig Web Data Science Award, a competition open to students and researchers in Benelux. The award is named for Peter Norvig who also chairs the judging committee for the award.
+Google Colossal Clean Crawled Corpus
+Google's version of the Common Crawl is called the Colossal Clean Crawled Corpus, or C4 for short.
