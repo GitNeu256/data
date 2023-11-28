@@ -1,0 +1,11 @@
+Live2D is a 2D animation software developed by Live2D Inc. It allows users to create and animate 2D characters with a high degree of realism and expressiveness. Live2D is used in a variety of applications, including games, anime, and advertising.
+Live2D works by using a technique called "warping" to deform 2D images. This allows users to create smooth, fluid animations that are indistinguishable from traditional 3D animation. Live2D also includes a variety of features that make it easy to create complex animations, such as lip-syncing, eye movement, and facial expressions.
+Live2D is a powerful tool that can be used to create stunning 2D animations. It is a popular choice for developers and artists who want to create realistic and expressive characters.
+Here are some of the benefits of using Live2D:
+* High realism and expressiveness: Live2D allows users to create 2D characters that are indistinguishable from traditional 3D animation. This is due to the use of warping, which allows for smooth, fluid animations.
+* Ease of use: Live2D includes a variety of features that make it easy to create complex animations, such as lip-syncing, eye movement, and facial expressions. This makes it a good choice for developers and artists who are new to 2D animation.
+* Wide range of applications: Live2D is used in a variety of applications, including games, anime, and advertising. This makes it a versatile tool that can be used for a variety of purposes.
+Here are some of the drawbacks of using Live2D:
+* Complexity: Live2D can be a complex software to learn. This is due to the variety of features that it offers.
+* Cost: Live2D is not free to use. The basic version of the software costs $99, and the professional version costs $199.
+Overall, Live2D is a powerful and versatile 2D animation software that can be used to create stunning animations. It is a good choice for developers and artists who want to create realistic and expressive characters.
