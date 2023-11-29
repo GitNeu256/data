@@ -1,0 +1,17 @@
+Lexical analysis, tokenization, or word analysis is the first phase of a compiler, where the source code is broken down into its constituent tokens. A token is a single element of the source code, such as a keyword, an identifier, a constant, or an operator.
+The lexical analyzer (also known as a lexer) is a program that performs lexical analysis. It reads the source code one character at a time, and identifies the tokens that are present.
+The lexical analyzer uses a lexical grammar to determine which characters are tokens. The lexical grammar is a set of rules that define the possible tokens in the source code.
+The lexical analyzer typically performs the following tasks:
+* Identifying tokens: The lexical analyzer identifies the tokens in the source code by matching them against the lexical grammar.
+* Assigning token types: The lexical analyzer assigns a token type to each token. The token type indicates the type of the token, such as a keyword, an identifier, a constant, or an operator.
+* Generating token sequences: The lexical analyzer generates a sequence of tokens, where each token is preceded by its token type.
+The lexical analyzer is a critical part of the compiler. It ensures that the source code is properly formatted and that the tokens are correctly identified.
+Here are some of the benefits of lexical analysis:
+* It ensures that the source code is properly formatted.
+* It identifies the tokens in the source code.
+* It assigns a token type to each token.
+* It generates a sequence of tokens.
+Here are some of the limitations of lexical analysis:
+* It can only identify the tokens that are defined in the lexical grammar.
+* It cannot identify errors in the source code, such as syntax errors.
+Lexical analysis is a fundamental step in the compilation process. It is a critical task that ensures that the source code is properly formatted and that the tokens are correctly identified.

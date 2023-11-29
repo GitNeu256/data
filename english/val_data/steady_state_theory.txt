@@ -1,0 +1,11 @@
+Steady-state theory is a cosmological model that proposes that the universe is always expanding but maintaining a constant average density. This means that new matter is continuously being created to fill in the space created by the expansion.
+The steady-state theory was first proposed by Fred Hoyle, Thomas Gold, and Hermann Bondi in 1948. It was a direct challenge to the Big Bang theory, which had been proposed by Georges Lemaître in 1931.
+The steady-state theory was based on two main assumptions:
+* The universe is infinite in extent and has no boundaries.
+* The universe is homogeneous, meaning that it has the same properties everywhere.
+The steady-state theory predicted that the universe would have a uniform background radiation, and that the redshift of distant galaxies would be constant.
+In the 1960s, observations of the cosmic microwave background radiation (CMB) provided strong evidence in favor of the Big Bang theory. The CMB is a faint afterglow of the initial explosion that created the universe.
+Observations of the CMB showed that the universe is not infinite in extent, but has a finite size. This was a major blow to the steady-state theory.
+In the 1970s, observations of distant galaxies showed that the redshift of these galaxies was not constant, but was increasing with distance. This was another major blow to the steady-state theory.
+Today, the steady-state theory is no longer a viable cosmological model. The Big Bang theory is the prevailing model of cosmology, and is supported by a wide range of observational evidence.
+The steady-state theory was a bold and innovative cosmological model, but it was ultimately disproven by observational evidence. The Big Bang theory, on the other hand, is supported by a wide range of evidence and is the prevailing model of cosmology today.

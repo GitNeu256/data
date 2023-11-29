@@ -1,0 +1,12 @@
+The Z3 was a relay-based computer built by Konrad Zuse in Germany between 1941 and 1945. It was the first programmable computer to use binary arithmetic, and it was a major step forward in the development of computing.
+The Z3 was a significant improvement over the Z1 and Z2. It was faster, more reliable, and more efficient. It was also the first computer to use binary arithmetic, which is the basis of modern computers.
+The Z3 was programmed using a punched tape system. The tape consisted of a series of holes that represented the instructions for the computer. The computer read the tape and executed the instructions.
+The Z3 was capable of performing a variety of mathematical operations, including addition, subtraction, multiplication, and division. It could also be used to solve equations and to perform other calculations.
+The Z3 was used by Zuse to develop a number of important software programs, including a compiler for the Plankalkül programming language. The Z3 was also used to calculate ballistics tables for the German military.
+The Z3 was destroyed during World War II, but it was rebuilt by Zuse after the war. The rebuilt Z3 is on display at the Deutsches Museum in Munich, Germany.
+Here are some of the key features of the Z3:
+* Programming: The Z3 was programmed using a punched tape system. The tape consisted of a series of holes that represented the instructions for the computer.
+* Computation: The Z3 was capable of performing a variety of mathematical operations, including addition, subtraction, multiplication, and division. It could also be used to solve equations and to perform other calculations.
+* Arithmetic: The Z3 was the first computer to use binary arithmetic, which is the basis of modern computers.
+* Size and complexity: The Z3 was about the size of a small room, and it weighed about 1,000 kilograms. It was larger and more complex than the Z1 and Z2.
+The Z3 was a significant achievement in the development of computing. It showed that it was possible to build a programmable computer that was fast, reliable, and efficient. It also showed that binary arithmetic was a viable way to represent numbers in a computer.

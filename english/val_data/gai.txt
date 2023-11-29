@@ -1,0 +1,12 @@
+Generative AI (genAI) is a broad label describing any type of artificial intelligence (AI) that can produce new text, images, video, or audio clips. Technically, this type of AI learns patterns from training data and generates new, unique outputs with the same statistical properties.
+Generative AI models use prompts to guide content generation and use transfer learning to become more proficient. Early genAI models were built with specific data types and applications in mind. For example, Google’s DeepDream was designed to manipulate and enhance images. It can produce engaging, new visual effects, but the model’s development was primarily focused on image processing, and its capabilities do not apply to other types of data.
+The field of generative AI is evolving quickly, however, and an increasing number of generative AI models are now multimodal. This advancement means the same model can handle different data prompts and generate different data types. 
+For example, the same genAI model could be used to:
+* Generate creative text
+* Generate informational text
+* Answer any type of question in a comprehensive and informative way
+* Describe an image
+* Generate a unique image based on a text prompt
+* Translate text from one language to another
+* Include the source of the model’s information in a response
+Generative AI model development is often a collaborative effort requiring different research types, programming, user experience (UX), and machine learning operations (MLOps) expertise. A multidisciplinary approach helps ensure that generative AI models are designed, trained, deployed, and maintained ethically and responsibly.

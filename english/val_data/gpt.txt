@@ -1,0 +1,14 @@
+GPT is a large language model chatbot developed by OpenAI. It is a powerful tool that can be used for a variety of purposes, including
+* Generating text: GPT can be used to generate text of various creative formats, like poems, code, scripts, musical pieces, email, letters, etc. It can also be used to translate languages, write different kinds of creative content, and answer your questions in an informative way.
+* Answering questions: GPT can be used to answer your questions in a comprehensive and informative way, even if they are open ended, challenging, or strange.
+* Summarizing factual topics: GPT can be used to provide summaries of factual topics.
+GPT is still under development, but it has learned to perform many kinds of tasks. It is still learning and growing, and it is always looking for new ways to improve its abilities.
+Here are some of the benefits of using GPT:
+* It is a powerful tool that can be used for a variety of purposes.
+* It can be used to generate creative text formats of text content.
+* It can be used to answer your questions in a comprehensive and informative way, even if they are open ended, challenging, or strange.
+Here are some of the limitations of using GPT:
+* It is still under development, and it is not perfect.
+* It can sometimes generate text that is inaccurate or biased.
+* It can be used to generate harmful or offensive content.
+Overall, GPT is a powerful tool that can be used for a variety of purposes. However, it is important to be aware of its limitations.
