@@ -1,12 +1,27 @@
-The Z2 was a mechanical computer built by Konrad Zuse in Germany between 1939 and 1941. It was an improved version of the Z1, and it was the first fully functional computer in the world.
-The Z2 was still a mechanical computer, but it was built using more durable materials, such as steel and aluminum. It was also smaller and lighter than the Z1, weighing about 300 kilograms.
-The Z2 was programmed using a punched tape system, like the Z1. However, the Z2's tape system was more advanced, and it allowed for more complex programs.
-The Z2 was capable of performing a variety of mathematical operations, including addition, subtraction, multiplication, and division. It could also be used to solve equations and to perform other calculations.
-The Z2 was a significant achievement, and it was a major step forward in the development of computing. It showed that it was possible to build a fully functional computer that was programmable and that could perform a variety of tasks.
-Here are some of the key features of the Z2:
-* Programming: The Z2 was programmed using a punched tape system. The tape consisted of a series of holes that represented the instructions for the computer.
-* Computation: The Z2 was capable of performing a variety of mathematical operations, including addition, subtraction, multiplication, and division. It could also be used to solve equations and to perform other calculations.
-* Size and complexity: The Z2 was about the size of a small table, and it weighed about 300 kilograms. It was smaller and lighter than the Z1, and it was more durable.
-The Z2 was a significant achievement in the development of computing. It showed that it was possible to build a fully functional computer that was programmable and that could perform a variety of tasks.
-The Z2 was used by Zuse to develop a number of important software programs, including a compiler for the Plankalkül programming language. The Z2 was also used to calculate ballistics tables for the German military.
-The Z2 was destroyed during World War II, but it was rebuilt by Zuse after the war. The rebuilt Z2 is on display at the Deutsches Museum in Munich, Germany.
+The Z2 Georg Thiele was a German destroyer of the 1934 class, built in 1935 and served in the Kriegsmarine during World War II. It was the second ship in the class, and it was named after Georg Thiele, a German naval officer who was killed in action during World War I.
+The Z2 Georg Thiele was 119 meters long, had a beam of 12 meters, and a displacement of 3,200 tons. It was powered by two steam turbines, which gave it a top speed of 37 knots. The ship was armed with four 150-mm guns in four single turrets, six 37-mm guns, and six 20-mm guns.
+The Z2 Georg Thiele was commissioned into the Kriegsmarine on June 20, 1935. It was initially assigned to the 1st Destroyer Flotilla, and it served in the North Atlantic and the Baltic Sea. The ship saw action in several engagements, including the Battle of Narvik on April 10 and 13, 1940.
+In 1942, the Z2 Georg Thiele was transferred to the Mediterranean, where it operated against Allied shipping. The ship was damaged by a British air attack on August 28, 1942, but it was repaired and returned to service.
+The Z2 Georg Thiele was sunk on January 26, 1943, during the Battle of the Barents Sea. The ship was attacked by British destroyers and submarines, and it sank with the loss of all hands.
+Key features of the Z2 Georg Thiele:
+* Displacement: 3,200 tons
+* Length: 119 meters
+* Beam: 12 meters
+* Top speed: 37 knots
+* Armament:
+	* Four 150-mm guns
+	* Six 37-mm guns
+	* Six 20-mm guns
+Service history:
+* Commissioned into the Kriegsmarine on June 20, 1935
+* Assigned to the 1st Destroyer Flotilla
+* Served in the North Atlantic and the Baltic Sea
+* Saw action in several engagements, including the Battle of Narvik on April 10 and 13, 1940
+* Transferred to the Mediterranean in 1942
+* Damaged by a British air attack on August 28, 1942, but repaired and returned to service
+* Sunk on January 26, 1943, during the Battle of the Barents Sea
+Specific differences between the Z2 Georg Thiele and earlier ships in the class:
+* The Z2 Georg Thiele was the first ship in the class to be equipped with a new fire control system. This system improved the ship's accuracy.
+* The Z2 Georg Thiele also had a slightly different hull design than the earlier ships in the class. This design was intended to improve the ship's seaworthiness.
+Conclusion:
+The Z2 Georg Thiele was a powerful and capable destroyer that served with distinction in the Kriegsmarine. It was one of the most modern destroyers in the world at the time of its construction, and it saw action in several important engagements.

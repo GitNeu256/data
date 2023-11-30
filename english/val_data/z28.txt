@@ -1,25 +1,35 @@
-The Z28 was a computer built by Konrad Zuse in Germany between 1963 and 1967. It was an improved version of the Z27, and it was the first computer in Europe to use magnetic core memory for storage.
-The Z28 was a transistor-based computer, and it was much faster and more efficient than the Z3. It was also much smaller and lighter, making it more practical for commercial use.
-The Z28 was programmed using a punched tape system, like the Z24, Z26, and Z27. However, the Z28's tape system was more advanced, and it allowed for more complex programs.
-The Z28 was capable of performing a variety of mathematical operations, including addition, subtraction, multiplication, and division. It could also be used to solve equations and to perform other calculations.
-The Z28 was used by a variety of companies in Germany, including Siemens, AEG, and Lufthansa. It was also used by universities and research institutions.
-The Z28 was a significant achievement in the development of computing. It showed that it was possible to build a commercial computer that was fast, efficient, and affordable. It also helped to establish Germany as a leader in the field of computing.
-Here are some of the key features of the Z28:
-* Programming: The Z28 was programmed using a punched tape system. The tape consisted of a series of holes that represented the instructions for the computer.
-* Computation: The Z28 was capable of performing a variety of mathematical operations, including addition, subtraction, multiplication, and division. It could also be used to solve equations and to perform other calculations.
-* Architecture: The Z28 was a transistor-based computer, and it was much faster and more efficient than the Z3. It was also much smaller and lighter.
-* Storage: The Z28 was the first computer in Europe to use magnetic core memory for storage.
-The Z28 was a significant achievement in the development of computing. It showed that it was possible to build a commercial computer that was fast, efficient, and affordable. It also helped to establish Germany as a leader in the field of computing.
-Here are some of the specific differences between the Z27 and Z28:
-* Architecture: The Z28 was a transistor-based computer, while the Z27 was a relay-based computer. This made the Z28 much faster and more efficient.
-* Storage: The Z28 used magnetic core memory for storage, while the Z27 used core memory. This made the Z28 even faster and more efficient for storing large amounts of data.
-* Programming: The Z28 used a more advanced programming language than the Z27. This made it easier to write programs for the Z28.
-The Z28 was a significant improvement over the Z27, and it helped to establish Germany as a leader in the field of computing.
-The Z28 was a landmark computer in the history of computing. It was the first computer in Europe to use magnetic core memory for storage, which made it much faster and more efficient than previous computers. The Z28 was also the first computer in Europe to use a compiler, which made it easier to write programs for the computer.
-The Z28 was used by a variety of companies and organizations in Germany, including Siemens, AEG, and Lufthansa. It was also used by universities and research institutions. The Z28 helped to establish Germany as a leader in the field of computing, and it paved the way for the development of more advanced computers in the years to come.
+The Z28 was a German destroyer of the 1936A class, built in 1941 and served in the Kriegsmarine during World War II. It was the sixth ship in the class, and it was one of the most modern destroyers in the world at the time of its construction.
+The Z28 was 127 meters long, had a beam of 12 meters, and a displacement of 3,600 tons. It was powered by two steam turbines, which gave it a top speed of 38.5 knots. The ship was armed with four 150-mm guns in four single turrets, eight 37-mm guns, nine 20-mm guns, and eight 533-mm torpedo tubes.
+The Z28 was commissioned into the Kriegsmarine on August 9, 1941. It was initially assigned to the 4th Destroyer Flotilla, and it served in the North Atlantic and the Arctic Sea. The ship saw action in several engagements, including the Battle of the Barents Sea on December 31, 1942.
+In 1944, the Z28 was transferred to the Mediterranean, where it operated against Allied shipping. The ship was damaged by a British air attack on January 21, 1945, but it was repaired and returned to service.
+The Z28 was sunk on March 6, 1945, in the Baltic Sea near Saßnitz. The ship was attacked by British bombers, and it sank with the loss of all hands.
+Key features of the Z28:
+* Displacement: 3,600 tons
+* Length: 127 meters
+* Beam: 12 meters
+* Top speed: 38.5 knots
+* Armament:
+	* Four 150-mm guns
+	* Eight 37-mm guns
+	* Nine 20-mm guns
+	* Eight 533-mm torpedo tubes
+Service history:
+* Commissioned into the Kriegsmarine on August 9, 1941
+* Assigned to the 4th Destroyer Flotilla
+* Served in the North Atlantic and the Arctic Sea
+* Saw action in several engagements, including the Battle of the Barents Sea on December 31, 1942
+* Transferred to the Mediterranean in 1944
+* Damaged by a British air attack on January 21, 1945, but repaired and returned to service
+* Sunk on March 6, 1945, in the Baltic Sea near Saßnitz
+Specific differences between the Z28 and earlier ships in the class:
+* The Z28 was designed as a flotilla leader, and it had a slightly different hull design than the earlier ships in the class. This design was intended to improve the ship's seaworthiness.
+* The Z28 was also equipped with a new fire control system that improved the ship's accuracy.
+Conclusion:
+The Z28 was a powerful and capable destroyer that served with distinction in the Kriegsmarine. It was one of the most modern destroyers in the world at the time of its construction, and it saw action in several important engagements.
 Here are some additional details about the Z28:
-* The Z28 had a clock speed of 2.5 MHz.
-* It had a memory capacity of 16,384 bytes.
-* It could perform 100,000 floating-point operations per second.
-* It cost about \$250,000.
-The Z28 was a significant achievement in the development of computing. It was a fast, efficient, and affordable computer that helped to establish Germany as a leader in the field of computing.
+* The ship was named after the 28th Destroyer Flotilla of the Kriegsmarine.
+* The Z28 was the first German destroyer to be equipped with a radar system.
+* The ship was also the first German destroyer to be equipped with a new type of 150-mm gun that was more powerful and accurate than the earlier guns.
+* The Z28 was one of the few German destroyers to sink an Allied warship during World War II. On December 31, 1942, the ship sank the Soviet destroyer Gromky during the Battle of the Barents Sea.
+Additional information:
+The Z28 was involved in several notable engagements during World War II. In December 1942, the ship participated in the Battle of the Barents Sea, where it helped to sink the Soviet destroyer Sokrushitelny. In April 1943, the ship was involved in the Battle of the Barents Sea, where it helped to sink the Soviet destroyer Gromky. In March 1945, the ship was sunk during an air raid in the Baltic Sea.

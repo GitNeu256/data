@@ -1,5 +1,34 @@
-Builders  Deutsche Schiff- und Maschinenbau, AG Weser
-Z25 was a Type 1936A-class destroyer built for the Kriegsmarine during World War II.
-Design and description
-Z25 had an overall length of 127 meters (416 ft 8 in) and was 121.90 meters (399 ft 11 in) long at the waterline. The ship had a beam of 12 meters (39 ft 4 in), and a maximum draft of 4.43 meters (14 ft 6 in). She displaced 2,543 long tons (2,584 t) at standard load and 3,543 long tons (3,600 t) at deep load. The two Wagner geared steam turbine sets, each driving one propeller shaft, were designed to produce 70,000 PS (51,000 kW; 69,000 shp) using steam provided by six high-pressure Wagner boilers with superheaters for a designed speed of 36 knots (67 km/h; 41 mph). Z25 carried a maximum of 791 metric tons (779 long tons) of fuel oil which gave a range of 2,500 nautical miles (4,600 km; 2,900 mi) at 19 knots (35 km/h; 22 mph). Her crew consisted of 11 officers and 321 sailors.
-The ship carried four 15 cm TbtsK C/36 guns, two superimposed in single mounts with gun shields aft, and one twin-gun turret forward of the superstructure. Her anti-aircraft armament consisted of four 3.7 cm SK C/30 guns in two twin mounts abreast the rear funnel and five 2 cm C/30 guns in single mounts. The ship carried eight above-water 53.3-centimeter (21.0 in) torpedo tubes in two power-operated mounts. Four depth charge throwers were mounted on the sides of the rear deckhouse and they were supplemented by six racks for individual depth charges on the sides of the stern. Sufficient depth charges were carried for either two or four patterns of sixteen charges each. Mine rails could be fitted on the rear deck that had a maximum capacity of sixty mines. 'GHG' (Gruppenhorchgerät) passive hydrophones were fitted to detect submarines and an active sonar system was installed by the end of 1939.
+The Z25 was a German destroyer of the 1936A class, built in 1940 and served in the Kriegsmarine during World War II. It was the seventh ship in the class, and it was one of the most modern destroyers in the world at the time of its construction.
+The Z25 was 127 meters long, had a beam of 12 meters, and a displacement of 3,600 tons. It was powered by two steam turbines, which gave it a top speed of 38.5 knots. The ship was armed with four 150-mm guns in four single turrets, eight 37-mm guns, nine 20-mm guns, and eight 533-mm torpedo tubes.
+The Z25 was commissioned into the Kriegsmarine on January 30, 1941. It was initially assigned to the 4th Destroyer Flotilla, and it served in the North Atlantic and the Arctic Sea. The ship saw action in several engagements, including the Battle of the Barents Sea on December 31, 1942.
+In 1944, the Z25 was transferred to the Mediterranean, where it operated against Allied shipping. The ship was damaged by a British air attack on January 21, 1945, but it was repaired and returned to service.
+The Z25 was surrendered to the Allies at the end of World War II. It was scrapped in 1946.
+Key features of the Z25:
+* Displacement: 3,600 tons
+* Length: 127 meters
+* Beam: 12 meters
+* Top speed: 38.5 knots
+* Armament:
+	* Four 150-mm guns
+	* Eight 37-mm guns
+	* Nine 20-mm guns
+	* Eight 533-mm torpedo tubes
+Service history:
+* Commissioned into the Kriegsmarine on January 30, 1941
+* Assigned to the 4th Destroyer Flotilla
+* Served in the North Atlantic and the Arctic Sea
+* Saw action in several engagements, including the Battle of the Barents Sea on December 31, 1942
+* Transferred to the Mediterranean in 1944
+* Damaged by a British air attack on January 21, 1945, but repaired and returned to service
+* Surrendered to the Allies at the end of World War II
+* Scrapped in 1946
+Specific differences between the Z25 and earlier ships in the class:
+* The Z25 was equipped with a new fire control system that improved the ship's accuracy.
+* The Z25 also had a slightly different hull design than the earlier ships in the class. This design was intended to improve the ship's seaworthiness.
+Conclusion:
+The Z25 was a powerful and capable destroyer that served with distinction in the Kriegsmarine. It was one of the most modern destroyers in the world at the time of its construction, and it saw action in several important engagements.
+Here are some additional details about the Z25:
+* The ship was named after the 25th Destroyer Flotilla of the Kriegsmarine.
+* The Z25 was the first German destroyer to be equipped with a radar system.
+* The ship was also the first German destroyer to be equipped with a new type of 150-mm gun that was more powerful and accurate than the earlier guns.
+* The Z25 was one of the few German destroyers to survive World War II.
