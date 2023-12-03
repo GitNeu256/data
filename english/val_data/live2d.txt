@@ -1,11 +1,31 @@
-Live2D is a 2D animation software developed by Live2D Inc. It allows users to create and animate 2D characters with a high degree of realism and expressiveness. Live2D is used in a variety of applications, including games, anime, and advertising.
-Live2D works by using a technique called "warping" to deform 2D images. This allows users to create smooth, fluid animations that are indistinguishable from traditional 3D animation. Live2D also includes a variety of features that make it easy to create complex animations, such as lip-syncing, eye movement, and facial expressions.
-Live2D is a powerful tool that can be used to create stunning 2D animations. It is a popular choice for developers and artists who want to create realistic and expressive characters.
-Here are some of the benefits of using Live2D:
-* High realism and expressiveness: Live2D allows users to create 2D characters that are indistinguishable from traditional 3D animation. This is due to the use of warping, which allows for smooth, fluid animations.
-* Ease of use: Live2D includes a variety of features that make it easy to create complex animations, such as lip-syncing, eye movement, and facial expressions. This makes it a good choice for developers and artists who are new to 2D animation.
-* Wide range of applications: Live2D is used in a variety of applications, including games, anime, and advertising. This makes it a versatile tool that can be used for a variety of purposes.
-Here are some of the drawbacks of using Live2D:
-* Complexity: Live2D can be a complex software to learn. This is due to the variety of features that it offers.
-* Cost: Live2D is not free to use. The basic version of the software costs $99, and the professional version costs $199.
-Overall, Live2D is a powerful and versatile 2D animation software that can be used to create stunning animations. It is a good choice for developers and artists who want to create realistic and expressive characters.
+Live2D is animation software that does not require frame-by-frame animation or 3D models, but can generate real-time 2D animation centered on animation-like characters by layering successive parts based on an illustration. This allows the user to move characters in 2.5D motion while maintaining the original illustration.
+Live2D characters are composed of layered parts. By moving the parts individually, it is possible to express the character's overall animation and facial expressions, such as tilting the head. Parts can be as simple as the face, hair, and body, or as detailed as eyebrows, eyelashes, or a section of hair that needs to be moved. The number of layers depends on how you want to represent the movement of your Live2D character. Live2D can be used in conjunction with real-time motion capture to track movement and lip-sync for real-time applications such as Vtubers. Live2D can be used in conjunction with real-time motion capture to track movement and lip-sync for real-time applications such as Vtubers. The downside to this technology is that there is currently no official setting for 360° rotation. It is also difficult to rotate complex images and characters at large angles.
+Live2D is used in a variety of media, including video games, visual novels, and virtual YouTuber channels, such as FaceRig, VTube Studio, Nekopara, Azur Lane, virtual YouTubers (Hololive, Nijisanji, VShojo) are typical examples of Live2D.
+History
+Live2D was first introduced in 2008 out of necessity for interactive media. Since then, the technology has also changed the way games enhance the user experience through lively characters and expressions.
+In 2009, Cubism (now Live2D) released its first Live2D application, Live2D vector. This application transforms vector graphics to achieve three-dimensional head-swinging and motion effects on flat character images. Although such characters are capable of limited movement, they perform much better than still images or slideshows. You can also customize your own moving character by adjusting parameters in the software and collecting materials such as images of various angles of the character. Of course, vector graphics still have many limitations. Although they occupy fewer capacity resources, they consume a lot of CPU to render complex images. Another drawback is the inability to represent specific painting styles, such as oil or gouache paintings.
+The first application that applied Live2D technology was the alarm application "HibikiDokei" released by sandwichproject in 2010. In this alarm app, a girl character named "Hibiki" speaks and moves.
+In 2011, "Ore no Imouto ga Konna ni Kawaii Wake ga Nai Portable" for PSP released by Namco Bandai Games Inc. adopted Live2D, and the O.I.U system derived from Live2D technology was applied to a game for the first time. The characters moved expressively on the screen, surprising players with their seamless, anime-like movements, and triggered the popularity of Live2D.
+Software
+Live2D Inc.
+Tetsuya Nakashiro, a software developer who had independently developed Live2D, established Cybernoise in 2006 with the support of the "Exploratory IT Human Resources Discovery and Development Project" of the Information-technology Promotion Agency, Japan (IPA). Cybernoise was a failure due to its novelty and low penetration rate.
+In 2011, Live2D was adopted in "Ore no Imouto ga Konna ni Kawaii Wake ga Nai Portable" for PSP, attracting much attention. Subsequently, it also attracted attention as a library for Android and iOS. Following this success, in 2014, Cybernoise changed its company name to "Live2D Inc." to unify it with the product name. Since then, Live2D's sales have grown significantly: in 2021, 70% of Live2D Cubism Pro users will be Vtubers, followed by games/apps (videos) and animation/video productions.
+Live2D Ltd. offers its software and SDKs under both commercial licenses and freeware. Software
+* Live2D Cubism
+* Live2D Euclid (released April 2017, discontinued as of October 16, 2018)
+* Live2D CubismM
+Official Marketplace
+Nijima is a platform where you can buy, sell, and order production transactions of illustrations and Live2D data. Illustrators and Live2D creators can collaborate to create characters and share sales on the platform. The platform also offers Live2D previews that allow users to view and move models before purchasing.
+Third Party
+Some animation software allows users to create animated avatars by combining the Live2D system with real-time motion capture, character animation, and CG images:
+Animation Software
+* Adobe Character Animator (Windows, MacOS)
+* Crazy Talk (Windows)
+* FaceRig (Windows)
+* Toon Boom Harmony (Windows, MacOS)
+Avatar Software
+* Hololive (iOS)
+* Nijisanji (Android, iOS)
+* VTube Studio (Android, iOS)
+Meaning
+Live2D can protect your privacy when using a virtual YouTuber (VTuber). Privacy is very important, especially in this age of information technology. Protecting privacy (in its many forms) is very important in today's Internet age. Virtual Youtuber is the term given by Youtuber Bag, who uses real-time animation in place of himself. This refers to showing oneself in the form of content for fear that one's privacy will be spread. The creation of a virtual YouTuber begins with rigging the character using Live2D, installing facial motion capture using OpenCV and Dib SDK, combining it with the Unity engine as a blueprint, and rigging character with Aiming at facial motion capture, by acquiring a rigged character in Live2D virtually, creating a character according to the content creator's wishes, and creating a virtual YouTuber using facial motion capture technology in the Unity engine. By doing so, the character can follow the content creator's facial movements and produce videos using YouTube's virtual technology. The built application can be published in the form of videos and streaming on the YouTube platform using OBS Studio.
