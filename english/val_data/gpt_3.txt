@@ -1,21 +1,89 @@
-GPT-3 is a large language model chatbot developed by OpenAI. It was first announced in May 2020, and it is the third of OpenAI's GPT models.
-GPT-3 is trained on a massive dataset of text and code. It is able to communicate and generate human-like text in response to a wide range of prompts and questions. For example, it can provide summaries of factual topics or create stories.
-GPT-3 has been shown to be capable of generating creative and informative text formats, like poems, code, scripts, musical pieces, email, letters, etc. It can also be used to translate languages, write different kinds of creative content, and answer your questions in an informative way.
-However, GPT-3 is still under development, and it has some limitations. It can sometimes generate text that is inaccurate or biased. It can also be used to generate harmful or offensive content.
-Overall, GPT-3 is a powerful tool that can be used for a variety of purposes. However, it is important to be aware of its limitations.
-Here are some of the benefits of using GPT-3:
-* It is a powerful tool that can be used for a variety of purposes.
-* It can be used to generate creative text formats of text content.
-* It can be used to answer your questions in a comprehensive and informative way, even if they are open ended, challenging, or strange.
-Here are some of the limitations of using GPT-3:
-* It is still under development, and it is not perfect.
-* It can sometimes generate text that is inaccurate or biased.
-* It can be used to generate harmful or offensive content.
-GPT-3 is a significant improvement over GPT-2 in a number of ways. It is larger, has been trained on a more diverse dataset, and uses a more advanced architecture. This makes it more accurate, creative, and informative.
-However, GPT-3 is also more computationally expensive to train and use. It is also more likely to generate text that is inaccurate or biased. It is important to be aware of these limitations when using GPT-3.
-Here are some of the key differences between GPT-3 and previous GPT models:
-* Size: GPT-3 is 175 billion parameters, while GPT-2 is 1.5 billion parameters.
-* Training data: GPT-3 is trained on a dataset of text, code, and images, while previous GPT models were trained on text only.
-* Architecture: GPT-3 uses a transformer architecture, while previous GPT models used a recurrent neural network architecture.
-* Performance: GPT-3 is generally more accurate and creative than previous GPT models.
-GPT-3 is a powerful tool that has the potential to revolutionize the way we interact with computers. However, it is important to be aware of its limitations and use it responsibly.
+Generative Pre-trained Transformer 3 (GPT-3) is a large-scale language model released by OpenAI in 2020. Like its predecessor GPT-2, it is a deep neural network decoder-only transformer model that uses attention instead of the previous recursion- and convolution-based architecture. The attention mechanism allows the model to selectively focus on segments of input text that are predicted to be most relevant. The model used a context of 2048 tokens in length and 175 billion parameters, which was unprecedented at the time, and required 800 GB of storage. The model demonstrated strong zero-shot and few-shot learning on many tasks.
+On September 22, 2020, Microsoft announced that it had obtained an "exclusive" license to use GPT-3.
+Background
+According to The Economist, improved algorithms, powerful computers, and increasing amounts of digitized data have fueled a revolution in machine learning, with new technologies in the 2010s resulting in "rapid improvements in tasks" including language manipulation. Software models are trained to learn using thousands or millions of examples in a "structure loosely based on the neural architecture of the brain." One architecture used in natural language processing (NLP) is a neural network (transformer architecture) based on a deep learning model first introduced in 2017. There are many NLP systems that can process, mine, organize, connect, contrast, and correctly answer questions about text input
+On June 11, 2018, OpenAI researchers and engineers posted the first generative pre-training transformer (GPT)-a type of generative large-scale language model that is pre-trained on a large and diverse corpus of text via a data set and then discriminatively fine-tuned to focus on a specific task The GPT model is a transformer-based deep learning neural network architecture. Until then, the best performing neural NLP models were typically trained through supervised learning from large amounts of manually labeled data, making it prohibitively expensive and time consuming to train very large language models. That first GPT model was known as GPT-1, followed in February 2019 by GPT-2. GPT-2 was created as a direct scale-up of GPT-1, increasing both the number of parameters and dataset size by a factor of 10. GPT-2 has 1.5 billion parameters, trained on a dataset of 8 million web pages.
+In February 2020, Microsoft announced Turing Natural Language Generation (T-NLG). Touted as "the largest language model ever published, with 17 billion parameters," T-NLG performed better than any other language model on a variety of tasks, including text summarization and answering questions.
+Training and Competence
+Sample student essays on pedagogy written by GPT-3
+The concept of "learning styles" is problematic because it does not explain the process by which learning styles are formed. Some students may have developed a particular learning style because of a particular experience. Others might have developed a particular learning style because they were trying to adapt to a learning environment that did not meet their learning needs. Ultimately, we need to understand the interplay between learning styles and environmental and personal factors and how they shape the way we learn and the type of learning we experience.
+- Written by Mike Sharples
+The May 28, 2020 arXiv preprint by a group of 31 engineers and researchers at OpenAI describes the achievement and development of GPT-3, the third generation "state-of-the-art language model." The team improved GPT-3's processing power by more than two orders of magnitude over the previous generation GPT-2, making GPT-3 the largest non-sparse language model to date. Because GPT-3 is structurally similar to its predecessors, its higher accuracy is due to its increased capacity and more parameters; GPT-3's capacity is 10 times that of Microsoft's Turing NLG, the next largest NLP model known at the time.
+Lambdalabs estimates the hypothetical cost of training GPT-3 on a single GPU in 2020 to be about US$4.6 million and a duration of 355 years, with the actual training time being reduced by using more GPUs in parallel.
+Sixty percent of GPT-3's weighted pre-training dataset is derived from a filtered version of Common Crawl, which consists of 410 billion byte-pair encoded tokens. Other sources are 19 billion tokens from WebText2, representing 22% of the weighted total; 12 billion tokens from Books1, representing 8%; 55 billion tokens from Books2, representing 8%; and 3 billion tokens from Wikipedia, representing 3%. GPT -3 is trained on hundreds of billions of words and can be coded in CSS, JSX, Python, etc.
+The training data for GPT-3 was comprehensive, so further training for distinct language tasks was not required. The training data contained occasional harmful language, and GPT-3 occasionally produced harmful language as a result of mimicking the training data. According to the University of Washington study, GPT-3 produced toxic language at levels of toxicity comparable to natural language processing models similar to GPT-2 and CTRL.OpenAI has implemented several strategies to limit the amount of toxic language produced by GPT-3. As a result, GPT-3 produced less toxic language than its predecessor model, GPT-1, but produced more generations of toxic language and higher toxicity compared to CTRL Wiki, a language model trained solely on Wikipedia data.
+On June 11, 2020, OpenAI announced that users could request access to the user-friendly GPT-3 API, or "machine learning toolset," to "explore the strengths and limitations" of this new technology.
+The invitation explains that the API has a generic "text-in, text-out" interface that can complete almost "any English task" rather than the usual single use case. one who has access to a non-public initial release of the OpenAI GPT-3 API According to users, GPT-3 was "eerily good" at writing "surprisingly coherent text" with only a few simple prompts. In the first experiment, 80 U.S. subjects were asked to determine whether a short article of about 200 words was written by a human or by GPT-3. Participants correctly judged 52% of the time, slightly better than a random guess.
+On November 18, 2021, OpenAI announced that it had put sufficient safeguards in place to ensure unrestricted access to its API; OpenAI provided developers with a content moderation tool to help them comply with OpenAI's content policy; on January 27, 2022, OpenAI announced that its latest GPT-3 language model (collectively called InstructGPT) is now the default language model used by the API; according to OpenAI, InstructGPT follows instructions better, has fewer made-up facts, and produces somewhat less harmful content, thereby content that is more in line with the user's intentions, according to the company.
+Because GPT-3 can "generate news articles that are difficult for human evaluators to distinguish from articles written by humans," GPT-3 has "the potential to advance both beneficial and harmful applications of language models. "In a May 28, 2020 paper, researchers describe GPT-3's potential " harmful effects" in detail." The "harmful effects" include "misinformation, spam, phishing, misuse of laws and government procedures, creation of fraudulent academic papers, and pretext creation through social engineering. The authors call attention to these dangers and call for research to mitigate the risks.
+GPT-3 is capable of zero-shot and few-shot learning (including one-shot). In June 2022, Almira Osmanovich Thunström wrote that GPT-3 was the lead author of a paper about herself, submitted for publication, and was pre-published while waiting for the review process to be completed.
+InstructGPT
+InstructGPT is an improved version of GPT-3. It is trained on a dataset of human-written instructions. This training allows InstructGPT to better understand what is being asked of it and to produce more accurate and appropriate output.
+* InstructGPT can be used to follow instructions given in natural language.
+* InstructGPT can be used to answer questions asked in natural language.
+* InstructGPT is more accurate and appropriate for following instructions and answering questions than GPT-3.
+* InstructGPT can be used in a variety of applications, including customer service, education, and automation.
+GPT-3 Models
+There are many models in the GPT-3 family, each with a different purpose than the others; the first research paper published by OpenAI mentions eight different sizes of the main GPT-3 models
+Model Name Parameter API Name
+GPT-3 Small 125 M
+GPT-3 Medium 350 M
+GPT-3 Large 760 M n/a
+GPT-3 XL 1.3 B Babbage
+GPT-3 2.7B 2.7 B n/a
+GPT-3 6.7B 6.7B Curie
+GPT-3 13B 13B n/a
+GPT-3 175B 175B da Vinci
+Half of GPT-3-medium, GPT-3-xl, GPT-3-6.7B and GPT-3-175B are accessible via API and are called ada, babbage, curie and davinci respectively.
+Model Parameter Description Series
+ada 350 M Very simple tasks, usually the fastest and least expensive model in the GPT-3 series.	Base GPT-3
+babbage 1.3 B Capable of simple tasks and very fast.	Base GPT-3
+curie 6.7 B Very high performance, but faster and lower cost than Davinci.	Base GPT-3
+davinci 175 B The most powerful model of the GPT-3. Can do everything the other models can do, often with higher quality.	Base GPT-3
+text-ada 350 M Very simple to work with, usually the fastest and least expensive model in the GPT-3 series.	Instructor GPT-3
+text-babbage 175B Easy to work with, very fast, lower price.	Instruct GPT-3
+text-curie 6.7B Very high performance, faster than Davinci, low cost.	Instruct GPT-3
+text-davinci-001 175B Older version of the most powerful model in the GPT-3 series. Often performs all tasks possible with other GPT-3 models, but in fewer contexts.	Instruct GPT-3
+text-davinci-002 175B GPT-3.5 with similar functionality to text-davinci-003, but trained with supervised fine-tuning instead of reinforcement learning.
+text-davinci-003 175B Higher quality and longer output than curie, babbage, and ada models, and consistent instruction following for all linguistic tasks. It also supports insertion of completions within text.	GPT-3.5
+gpt-3.5-turbo 175B The most powerful GPT-3.5 model, optimized for chatting at 1/10 the cost of text-davinci-003.	GPT-3.5
+GPT-3.5
+Generative Pre-trained Transformer 3.5 (GPT-3.5) is a subclass of the GPT-3 model created by OpenAI in 2022.
+On March 15, 2022, OpenAI made new versions of GPT-3 and Codex with editing and insertion capabilities available in the API under the names "text-davinci-002" and "code-davinci-002". These models are described as more powerful than previous versions and were trained on data through June 2021. on November 28, 2022, OpenAI released text-davinci-003. on November 30, 2022, OpenAI released these models as the "GPT-3.5" series and released ChatGPT, a fine-tuned version of the GPT-3.5 series models.OpenAI did not include GPT-3.5 in GPT-3.
+Models
+There are four models:
+* chat
+	* gpt-3.5-turbo
+* text-completion
+	* text-da-vinci-003
+	* text-da-vinci-002
+GPT-3.5 with browsing functionality
+On April 10, 2023, OpenAI announced a new model in the GPT-3.5 series, GPT-3.5 with Browsing (ALPHA), which further enhances the functionality of its GPT-3.5 predecessors, text-davinci-002 and code-davinci-002 Model. The GPT-3.5 (ALPHA) model with browsing functionality incorporates the ability to access and browse online information. This enables more accurate and up-to-date responses to user inquiries.
+The GPT-3.5 with Browsing (ALPHA) model has been trained on data through September 2021, compared to the previous GPT-3.5 model trained on data through June 2021. The model attempted to provide developers and users with advanced natural language processing tools that can effectively search and synthesize online information.
+To enable the browsing functionality, OpenAI implemented a new API that allows the GPT-3.5 with Browsing (ALPHA) model to access selected online resources while it is running. This feature allows users to ask questions and request information with the expectation that the model will provide updated, accurate, and relevant answers based on the most current online sources available.
+On April 27, 2023, OpenAI released the GPT-3.5 with Browsing (ALPHA) model to GPT Plus users. This allowed more people to access the new features.
+Reception
+Application.
+* GPT-3, especially the Codex model, is the basis for GitHub Copilot, a code completion and generation software that can be used with various code editors and IDEs.
+* GPT-3 is a specific Microsoft product used to convert conventional languages into formal computer code.
+* GPT-3 is used by CodexDB to generate query-specific code for SQL processing.
+* GPT-3 is used by Jason Rohrer in a retro-themed chatbot project named "Project December."
+* GPT-3 was used by The Guardian to write an article about AI being harmless to humans; GPT-3 was given several ideas and created eight different essays that were eventually combined into one article.
+* GPT-3 was used in AI Dungeon to generate a text-based adventure game GPT-3 was used in AI Dungeon to generate a text-based adventure game. Subsequently, GPT-3 was replaced by a competing model because OpenAI changed its policy regarding generated content.
+* GPT-3 has been used to generate copy and other marketing materials.
+* A Drexel University study in 2022 suggested that a GPT-3-based system could be used to screen for early signs of Alzheimer's disease.
+Reviews.
+* In a July 2020 review in The New York Times, Farhad Manjoo said that GPT-3's ability to generate computer code, poetry, and prose is not only "amazing," "creepy," and "humbling," but "more than a little frightening."
+* The Daily Noose presented a series of articles by nine philosophers on GPT-3. Australian philosopher David Chalmers described GPT-3 as "one of the most interesting and important AI systems ever created."
+* Wired magazine described GPT-3 as "causing chills all over Silicon Valley."
+* National Law Review said GPT-3 is "an impressive step in a larger process" and that OpenAI and other companies are finding "useful applications for all this power" as they continue "working toward more general intelligence."
+* According to an article in the MIT Technology Review, co-authored by deep learning critic Gary Marcus, GPT-3 is "often significantly out of step with our understanding of the world, and we are not yet ready to move forward." According to the authors, GPT-3 models relationships between words without understanding the meaning behind each word.
+* Jerome Pesenti, head of Facebook's AI Lab, said GPT-3 is "unsafe" and that when the system was asked to discuss Jews, women, blacks, and the Holocaust, it generated sexist, racist, and other biased and negative words He pointed out. * Nabla, a French startup specializing in healthcare technology, tested GPT-3 as a medical chatbot. As expected, GPT-3 exhibited some limitations. For example, when testing GPT-3's responses on mental health issues, the AI recommended suicide to a simulated patient.
+* Noam Chomsky is skeptical of GPT-3's scientific value: "It is not a language model; GPT-3 is not a language model and works as well as real language for impossible languages. Therefore, if it is intended as a language model, it is refuted by normal scientific standards. [It will probably serve some purpose, but it does not seem to tell us anything about language or cognition in general."
+* Luciano Floridi and Massimo Ciriatti emphasized the risk of "making good semantic artifacts cheap."
+* Sam Altman of Open AI himself criticized what he called the "hype" of GPT-3, admitting that GPT-3 has "serious weaknesses and sometimes makes very stupid mistakes... AI is going to change the world, and GPT-3 is only a glimpse."
+Criticism
+GPT-3's builder, OpenAI, was initially founded as a non-profit organization in 2015; in 2019, OpenAI did not publicly release GPT-3's predecessor model, citing concerns that it could facilitate the propagation of fake news and that it would be a normal open source OpenAI eventually released a version of GPT-2 that was 8% the size of the original model. That same year, OpenAI was reorganized as a for-profit company; in 2020, Microsoft announced that it had received an exclusive license to GPT-3 for Microsoft products and services, following a multi-billion dollar investment in OpenAI. Under the agreement, OpenAI will be allowed to provide a public API that allows users to send text to GPT-3 and receive model output, but only Microsoft will have access to the GPT-3 source code.
+Large-scale language models such as GPT-3 have been criticized by some of Google's AI ethics researchers for the environmental impact of model training and storage, as detailed in a 2021 paper co-authored by Timnit Gebre and Emily M. Bender.
+The increasing use [at the time] of automated writing technologies based on GPT-3 and other language generators has raised concerns about academic integrity and the stakes of how universities and schools assess what constitutes plagiarism and other forms of academic misconduct.
+OpenAI's GPT series was built using data from the Common Crawl Dataset. The Common Crawl Dataset is a collection of copyrighted articles, Internet postings, web pages, and books scraped from 60 million domains over a 12-year period.According to TechCrunch, this training data includes the BBC, New York Times, Reddit, and the full text of online books. In its response to the 2019 "Request for Comment on Intellectual Property Protection of Artificial Intelligence Innovations" issued by the U.S. Patent and Trademark Office (USPTO), OpenAI argued that "under current law, training of AI systems (such as GPT models) constitutes fair use," but "there is no case law on this point OpenAI and other AI developers such as ourselves face considerable legal uncertainty and compliance costs due to the lack of

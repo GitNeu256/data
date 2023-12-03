@@ -1,14 +1,13 @@
-GPT-1 is a large language model chatbot developed by OpenAI. It was first announced in June 2018, and it was the first of OpenAI's GPT models.
-GPT-1 is trained on a massive dataset of text and code. It is able to communicate and generate human-like text in response to a wide range of prompts and questions. For example, it can provide summaries of factual topics or create stories.
-GPT-1 has been shown to be capable of generating creative and informative text formats, like poems, code, scripts, musical pieces, email, letters, etc. It can also be used to translate languages, write different kinds of creative content, and answer your questions in an informative way.
-However, GPT-1 is still under development, and it has some limitations. It can sometimes generate text that is inaccurate or biased. It can also be used to generate harmful or offensive content.
-Overall, GPT-1 is a powerful tool that can be used for a variety of purposes. However, it is important to be aware of its limitations.
-Here are some of the benefits of using GPT-1:
-* It is a powerful tool that can be used for a variety of purposes.
-* It can be used to generate creative text formats of text content.
-* It can be used to answer your questions in a comprehensive and informative way, even if they are open ended, challenging, or strange.
-Here are some of the limitations of using GPT-1:
-* It is still under development, and it is not perfect.
-* It can sometimes generate text that is inaccurate or biased.
-* It can be used to generate harmful or offensive content.
-GPT-2 and GPT-3 are newer versions of GPT-1 that have been improved in a number of ways. They are more accurate, less biased, and less likely to generate harmful or offensive content. However, they are also more computationally expensive to train and use.
+Generative Pre-trained Transformer 1 (GPT-1) was the first of OpenAI's large-scale language models, following Google's invention of the transformer architecture in 2017.In 2018, OpenAI published a paper entitled "Improving Language Understanding by Generative Pre-Training," in which it introduced its initial model along with the general concept of generatively pre-trained transformers.
+Up to that point, the best performing neural NLP models had employed supervised learning from large amounts of data, primarily manually labeled. For many languages (e.g., Swahili and Haitian Creole), the lack of available texts for corpus construction makes translation and interpretation using such models difficult. In contrast, the GPT "semi-supervised" approach had two stages: an unsupervised generation "pre-training" phase in which initial parameters were set using language modeling goals, and a supervised identification "fine-tuning" phase in which these parameters were adapted to the target task.
+In contrast to traditional methods involving attention-enhancing RNNs, the use of a transformer architecture allowed the GPT model to have a more structured memory than would be achieved with a recurrent mechanism, resulting in "robust transfer performance across diverse tasks."
+Why BookCorpus?
+BookCorpus was chosen as the training dataset in part because of its long sequence of sentences, which helped train the model to handle long-distance information. The dataset contained over 7,000 unpublished novels of various genres. Other datasets available at the time, while larger in size, lacked this long-range structure (they were "shuffled" at the sentence level).
+The BookCorpus text was cleaned by the ftfy library to standardize punctuation and whitespace, and tokenized by spaCy.
+Architecture
+The GPT-1 architecture was a 12-layer decoder-only transducer with 12 masked self-attention heads, each with 64 dimensional states (768 total). Instead of simple stochastic gradient descent, the Adam optimization algorithm was used. The learning rate increased linearly from zero to a maximum of 2.5 × 10-4 in the first 2,000 updates and was annealed to zero using a cosine schedule.
+Fine tuning was adapted to specific tasks, but pre-training was not. Minimal changes were made to the foundation of the task-agnostic model architecture to perform the various tasks. Despite this, GPT-1 outperformed previous benchmarks on several language processing tasks and outperformed discriminatively trained models with task-oriented architectures on many diverse tasks.
+Performance and Evaluation
+GPT-1 achieved a 5.8% and 1.5% improvement over its best previous results on a natural language inference (also known as textual implication) task, evaluating its ability to interpret sentence pairs from various datasets and classify the relationship between them as "implication," "contradiction," or "neutral". Examples of such datasets include QNLI (Wikipedia articles) and MultiNLI (transcribed speeches, popular fiction, government reports, etc.). Similarly, GPT-1 outperformed previous models on two tasks related to question answering and common-sense reasoning.
+GPT-1 outperformed the best performing model to date by 4.2% on semantic similarity (or paraphrase detection), which measures the ability to predict whether two sentences are paraphrases of each other using the Quora Question Pairs (QQP) data set.
+GPT-1 achieved a score of 45.4 on the text classification task using CoLA (Corpus of Linguistic Acceptability), compared to its previous best of 35.0. Finally, GPT-1 achieved an overall score of 72. 8 (previous record was 68.9).
