@@ -247,7 +247,6 @@ This vehicle, created by MAN Mobile Bridges GmbH, is an armoured vehicle-launche
 Panzerschnellbrücke Leguan
 This modular system combines a bridge module created by MAN Mobile Bridges GmbH with a tank chassis. The Bundeswehr is testing the Leguan on Leopard 2 chassis.
 AEV 3 Kodiak
-Main article: AEV 3 Kodiak
 The AEV 3 Kodiak is a combat engineering vehicle conversion of the Leopard 2 used by the Netherlands, Singapore, Sweden, and Switzerland. It is equipped with a bulldozer blade, excavator arm, and dual capstan winches. In lieu of a turret, a Remote Weapon Station or other armaments can be fitted. It is built on the Leopard 2 chassis with a built-up forward superstructure. The vehicle is used primarily for the clearance of obstacles, including minefields. The Dutch version has additional bomblet protection for the crew compartments. Spain may procure 24 examples for the Spanish Army from converted Leopard 2A4 hulls (one vehicle has been trialled in Spain) and the type will be offered to Germany.
 Driver Training Tank (Fahrschulpanzer)
 The Leopard 2 Driver Training Tank, as the name implies, is a non-combatant Leopard 2 for instructing soldiers in the finer points of handling the tank. The turret is supplanted by a weighted and fixed observation cab with forward and side-facing windows and a dummy gun. The instructor rides in this cab, with override controls for critical systems, and space is provided for two other students to observe.

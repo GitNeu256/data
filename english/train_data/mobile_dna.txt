@@ -11,7 +11,6 @@ Transposons usually code for at least one gene, as they need the enzyme transpos
 For more on the mechanisms see Types of transposon.
 There are three different types of transposon, classified by their mechanisms:
 Class I: retrotransposons
-See main article Retrotransposon
 Retrotransposons (sometimes Retroposons) work by copying themselves and pasting copies back into the genome, in multiple places. First retrotransposons copy themselves to RNA (transcription), but instead of being translated the RNA is picked up by reverse transcriptase (often coded by the transposon itself) which copies the RNA back into DNA which is then inserted into the genome. This process is called retroposition, and the new genes are called retrogenes. Retrotransposons usually have very long terminal repeats of over 1000 base pairs, making them easy to find and study.
 Retrotransposons behave very similarly to retroviruses, such as HIV, giving a clue to their evolutionary origins (see #The evolution of transposons).
 Retrotransposons can carry flanking sequence during their mobilization to a new site, a process which is called 3'-transduction, and which can cause duplication of genes. Such gene duplication is an important mechanisms for creating new genes and generating genomic novelty.
