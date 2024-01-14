@@ -1,0 +1,47 @@
+BERT (Bidirectional Encoder Representations from Transformers) is a language model based on transformer architecture that is notable for its dramatic improvements over previous state-of-the-art models. Published in October 2018 by Google researchers, a 2020 literature review concluded that "in a little over a year, BERT has become a ubiquitous baseline in natural language processing (NLP) experiments, counting over 150 research papers analyzing and improving this model."
+BERT was originally implemented in English in two model sizes: BERTBASE: 12 encoders with 12 bidirectional self-attention heads, totaling 110 million parameters; BERTLARGE: 24 encoders with 16 bidirectional self-attention heads, totaling 340 million parameters. Both models were pre-trained on Toronto BookCorpus (800 million words) and English Wikipedia (2.5 million words).
+Design
+BERT is an "encoder-only" transducer architecture.
+At a high level, BERT consists of three modules:
+* Embedding. This module converts an array of one-hot encoded tokens into an array of vectors representing the tokens.
+* Stack of Encoders. These encoders are Transformer encoders. These encoders perform transformations on arrays of representation vectors.
+* Unembedding. This module converts the final representation vector back into a one-hot encoded token.
+The un-embedding module is necessary for pre-training, but is often not needed for downstream tasks. Instead, it takes the representation vector output at the end of the encoder stack, uses it as a vector representation of the text input, and trains a smaller model on it.
+BERT uses WordPiece to convert each English word into an integer code. Its vocabulary size is 30,000. Tokens not in the vocabulary are replaced by [UNK].
+Pre-training
+BERT was pre-trained in two tasks simultaneously
+Linguistic modeling: 15% of the tokens were selected for prediction, and the training objective was to predict the selected tokens given the context. The selected tokens were.
+* Replaced by a [MASK] token with 80% probability,
+* be replaced by a random word token with a 10% probability, * be replaced by a random word token with a 10% probability, * be replaced by a random word token with a 10% probability
+* not replaced with 10% probability.
+For example, in the sentence "my dog is cute", the fourth token is selected for prediction. The following text is entered into the model.
+* "my dog is [MASK].
+* "My dog is happy," with a probability of 10%,
+* "My dog is cute" with a probability of 10%.
+After processing the input text, the model's fourth output vector is passed to another neural network, which outputs a probability distribution of 30,000 words.
+Predicting the next sentence: given two spans, the model predicts whether these two spans appear consecutively in the training corpus and outputs either [IsNext] or [NotNext]. The first span begins with the special token [CLS] (meaning "classify"); the two spans are separated by the special token [SEP] (meaning "separate") After processing the two spans, the first output vector (the vector encoding [CLS]) is converted into two vectors, [IsNext] and [ NotNext]) is passed to another neural network for binary classification into.
+* For example, given "[CLS] my dog is cute [SEP] he likes playing", the model will output the token [IsNext].
+* For example, given "[CLS] my dog is cute [SEP] he likes playing", the model will output the token [NotNext].
+As a result of this training process, BERT learns the latent representation of words and sentences in context. After pre-training, BERT can be fine-tuned with fewer resources on smaller data sets to optimize its performance on specific tasks such as NLP tasks (linguistic inference, text classification) and inter-sequence-based language generation tasks (question answering, conversational response generation). The pre-training phase is significantly more computationally expensive than fine-tuning.
+Architectural Details
+In this section, BERTBASE is described. Another BERTLARGE is similar but larger. The bottom layer is the embedding layer, which consists of three elements: word_embeddings, position_embeddings, and token_type_embeddings.
+* word_embeddings captures one-hot vectors of the input tokens; the input one-hot vectors are 30,000 dimensions, since the BERT vocabulary size is so large.
+* position_embeddings performs absolute position embeddings. This is similar to word_embeddings, but since BERT has 512 context windows, the vocabulary consists of only timestamps 0-511.
+* token_type_embeddings is similar to word_embeddings, but is a vocabulary consisting of only 0s and 1s. All other tokens are of type 0.
+The three outputs are added together and then subjected to LayerNorm (layer normalization), yielding an array of representation vectors of dimension 768 each.
+After this, the representation vectors pass through 12 Transformer encoders and are de-embedded by affine-Add & LayerNorm-linear.
+Performance
+When BERT was released, it achieved state-of-the-art performance on many natural language understanding tasks:
+* GLUE (General Language Understanding Evaluation) task set (consisting of 9 tasks)
+* SQuAD (Stanford Question Answering Dataset) v1.1 and v2.0.
+* SWAG (Situations involving Adversarial Generation)
+Analysis
+The reasons for BERT's state-of-the-art performance on these natural language understanding tasks are not yet fully understood. Current research is focused on investigating the relationships behind BERT's output as a result of carefully selected input sequences, analysis of internal vector representations through probing classifiers, and the relationships represented by attention weights. The high performance of the BERT model can also be attributed to the fact that it is learned interactively. This means that BERT, based on the Transformer model architecture, applies its self-attention mechanism to learn information from the left and right texts during training, resulting in a deeper understanding of the context. For example, the word fine can have two different meanings depending on the context (I feel fine today, She has fine blond hair); BERT considers words that surround the target word fine from the left and right.
+In general, bidirectional models do not work effectively without the right side, making them difficult to prompt and requiring highly computationally expensive techniques for even short text generation.
+In contrast to deep learning neural networks, which require very large amounts of data, BERT is already pre-trained. This means that it has already learned the representation of words and sentences and the underlying semantic relationships to which they are connected; BERT can then be fine-tuned on smaller data sets for specific tasks, such as sentiment classification. The pre-trained model is selected based on the purpose of the task as well as the content of the given data set to be used. For example, if the task is a sentiment classification task for financial data, a pre-trained model should be selected for sentiment analysis of financial text. The weights of the original pre-trained model are available on GitHub.
+History
+BERT was originally presented by Google researchers Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. The design has its origins in semi-supervised sequence learning, generative prior learning, and prior learning of contextual representations such as ELMo and ULMFit. Unlike previous models, BERT is a deeply interactive unsupervised language representation that is pre-trained using only a plain text corpus; while context free models such as word2vec and GloVe generate a single word embedded representation for each word in the vocabulary, BERT is a context free model that is based on the context of each occurrence of a given word. considers the context of each occurrence of a given word. For example, the vector "running" has the same word2vec vector representation whether it appears in the sentence "He is running a company" or "He is running a marathon," whereas BERT provides different contextual embeddings for different sentences.
+On October 25, 2019, Google announced that it had begun applying the BERT model to English search queries in the U.S. On December 9, 2019, it was reported that BERT had been adopted for Google search in over 70 languages By October 2020, nearly all English-based queries will be processed by the BERT model.
+In a later paper, RoBERTa was proposed, which maintains the architecture of BERT but improves its training, changes key hyperparameters, removes the next sentence prediction task, and uses a larger mini-batch size.
+Recognition
+The research paper describing BERT won the Best Long Paper Award at the 2019 annual conference of the North American Chapter of the Association for Computational Linguistics (NAACL).
