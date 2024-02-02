@@ -1,0 +1,17 @@
+GPT-J or GPT-J-6B is an open-source large-scale language model (LLM) developed by EleutherAI in 2021. As the name implies, it is a generatively pre-trained translation model designed to produce human-like text following from a prompt. The optional "6B" in the name means that there are 6 billion parameters.
+Architecture
+GPT-J, with 6 billion parameters, is an autoregressive, decoder-only transformation model similar to GPT-3, designed to solve natural language processing (NLP) tasks by predicting how a piece of text will follow.
+Its architecture differs from GPT-3 in three main ways.
+Attention and feed-forward neural networks are computed in parallel during training, allowing for higher efficiency.
+The GPT-J model uses rotary position embeddings, which have proven to be an excellent way to inject position information into the transducer.
+GPT-J uses dense attention rather than the efficient sparse attention used in GPT-3.
+This model has 28 transformation layers and 16 attention heads. The vocabulary size is 50257 tokens, the same as GPT-2. The context window size is 2048 tokens.
+It was trained on the Pile dataset using JAX's Mesh Transformer JAX library to handle the parallelization scheme.
+Performance
+GPT-J was designed to generate English text from prompts. It was not designed to translate or generate text in other languages, nor was it designed to perform without first fine-tuning the model for a specific task. Nevertheless, GPT-J performs reasonably well there without fine-tuning or with translation (at least from English to French).
+Without either tweak, GPT-J-6B performs about as well as GPT-3 (Curie) with 6.7 billion parameters on a variety of tasks. In the code generation task, it even outperforms GPT-3 (Davinci) with 175 billion parameters. With fine tuning, it outperforms the untuned GPT-3 (Davinci) on many tasks.
+Like other LLMs, it is not programmed to give virtually accurate information, only to generate text based on probabilities.
+Applications
+Untuned GPT-J is available on EleutherAI's website, NVIDIA's Triton Inference Server, and NLP Cloud's website; Cerebras and Amazon Web Services offer services to fine-tune GPT -J model fine-tuning services; Graphcore offers both fine-tuning and hosting services for untuned GPT-J, as well as hosting services after the fine-tuned model has been created. CoreWeave offers hosting services for both untuned GPT-J and fine-tuned models.
+In March 2023, Databricks released Dolly, an Apache-licensed instruction-following model created by fine-tuning GPT-J on Stanford's Alpaca dataset; NovelAI's Sigurd and Genji-JP 6B models are both GPT -J fine-tuned versions. They also offer further fine-tuning services to create and host custom models.
+EleutherAI has received praise from Cerebras, GPT-3 Demo, NLP Cloud, and Databricks for open sourcing their models, and being open source is often cited as a major advantage when choosing which model to use.
